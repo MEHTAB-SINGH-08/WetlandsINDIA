@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WetlandsINDIA</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="reeds" viewBox="0 0 60 80"><g stroke="var(--g)" stroke-width="3" stroke-linecap="round" fill="none"><path d="M10 80q-4-40-8-60M26 80q2-50 12-72M44 80q-2-34 6-52"/></g><g fill="var(--mud)"><ellipse cx="2" cy="18" rx="3" ry="7"/><ellipse cx="38" cy="6" rx="3" ry="8"/><ellipse cx="50" cy="26" rx="3" ry="7"/></g></symbol>
+<symbol id="cloud" viewBox="0 0 120 50"><path d="M20 46q-16 0-16-13t16-12q4-16 24-14 10-12 28-2 22-2 26 18 14 0 14 12t-16 11z" fill="currentColor"/></symbol>
+</defs></svg>
+<nav><div class="wrap"><b>WetlandsINDIA</b><a href="#/">Home</a><a href="#/science">Science</a><a href="#/effects">Effects</a><a href="#/data">Data</a><a href="#/india">India</a><a href="#/solutions">Solutions</a></div></nav>
+<main class="wrap">
+
+<!-- HOME -->
+<section class="page" id="p-home">
+<h1>Wetlands & Rain</h1>
+<p class="lead">Marshes, mangroves, peat bogs and floodplains depend on water arriving at the right time and in the right amount. Climate change is shifting both. Explore the science, the effects, the data, India's response and the fixes.</p>
+<figure class="fig">
+<svg viewBox="0 0 800 340" id="hero" class="s-steady" role="img" aria-label="A wetland whose water level changes with rainfall">
+<rect width="800" height="340" fill="var(--sky)"/>
+<g id="cloudg" style="color:#fff" opacity=".9"><use href="#cloud" x="90" y="30" width="200" height="80"/><use href="#cloud" x="480" y="50" width="170" height="68" opacity=".6"/></g>
+<path d="M0 200q120-50 260-20t260-10 280 20v50H0z" fill="var(--g)" opacity=".3"/>
+<g id="rain" stroke="var(--w)" stroke-width="2" stroke-linecap="round"><path d="M150 120l-8 22M200 130l-8 22M250 118l-8 22M520 130l-8 22M570 118l-8 22M630 134l-8 22M340 134l-8 22M420 120l-8 22M700 126l-8 22M100 138l-8 22"/></g>
+<rect id="water" y="225" width="800" height="200" fill="var(--w)"/>
+<g id="fish" fill="#fff" opacity=".6"><path d="M300 282q14-12 28 0-14 12-28 0zM520 302q12-10 24 0-12 10-24 0z"/></g>
+<g id="cracks" stroke="var(--mud)" stroke-width="2" fill="none" stroke-linecap="round"><path d="M80 300l40-14 22 20 38-10M330 312l30-18 30 14 40-12M560 298l36-12 20 18 40-8"/></g>
+<path d="M0 272q90-30 200-12t180 30v52H0z" fill="var(--mud)"/><path d="M800 264q-110-26-210-4t-170 36v44h380z" fill="var(--mud)"/>
+<use href="#reeds" x="20" y="195" width="90" height="90"/><use href="#reeds" x="690" y="185" width="90" height="90"/>
+<!-- <g id="bird" fill="none" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M410 258l2-52q-2-20 10-24l14-4M412 258l-4 20M418 258l4 20"/></g> -->
+</svg>
+<div class="ctl" role="group" aria-label="Rainfall pattern"><button aria-pressed="true" data-s="steady">Steady rain</button><button aria-pressed="false" data-s="drought">Longer dry spells</button><button aria-pressed="false" data-s="flood">Intense downpours</button></div>
+<figcaption id="cap" aria-live="polite"></figcaption></figure>
+<div class="grid">
+<a class="card" href="#/science"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--sky)"/><ellipse cx="80" cy="62" rx="62" ry="16" fill="var(--w)"/><use href="#reeds" x="30" y="30" width="30" height="40"/><use href="#cloud" x="60" y="6" width="50" height="22" style="color:#fff"/></svg><h3>The science</h3><p>What a wetland is, how it balances water, and why rain timing matters.</p></a>
+<a class="card" href="#/effects"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--sky)"/><rect y="60" width="160" height="30" fill="var(--dry)"/><path d="M10 70l20-6 10 8 22-6M90 80l16-8 12 6 24-4" stroke="var(--mud)" stroke-width="2" fill="none"/><use href="#reeds" x="100" y="22" width="30" height="40"/></svg><h3>The effects</h3><p>Drying, flooding, mistimed seasons, salt and carbon release.</p></a>
+<a class="card" href="#/data"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--soft)"/><rect x="14" y="40" width="132" height="14" rx="7" fill="var(--line)"/><rect x="14" y="40" width="29" height="14" rx="7" fill="var(--w)"/><text x="14" y="30" font-size="11" fill="var(--ink)">22% lost since 1970</text></svg><h3>The data</h3><p>Global loss, the funding gap and what is at stake.</p></a>
+<a class="card" href="#/india"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--soft)"/><path d="M20 70h120" stroke="var(--line)" stroke-width="3"/><g fill="var(--w)"><circle cx="30" cy="70" r="5"/><circle cx="62" cy="70" r="5"/><circle cx="94" cy="70" r="5"/><circle cx="126" cy="70" r="5"/></g><text x="20" y="45" font-size="12" fill="var(--ink)">91 Ramsar sites</text></svg><h3>India</h3><p>Government atlas, laws, schemes and threatened sites.</p></a>
+<a class="card" href="#/solutions"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--sky)"/><ellipse cx="80" cy="68" rx="66" ry="14" fill="var(--w)"/><use href="#reeds" x="30" y="28" width="30" height="40"/><use href="#reeds" x="100" y="28" width="30" height="40"/></svg><h3>Solutions</h3><p>Restoring water flow, law, monitoring and finance.</p></a>
+</div></section>
+
+<!-- SCIENCE -->
+<section class="page" id="p-science" hidden>
+<h1>How wetlands work</h1>
+<p class="lead">A wetland is land where water stays long enough to shape the soil and the life on it. That can be a few months a year or all year round.</p>
+<h2>Four common kinds</h2>
+<div class="grid">
+<div class="card"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--sky)"/><rect y="56" width="160" height="34" fill="var(--w)"/><use href="#reeds" x="20" y="22" width="34" height="44"/><use href="#reeds" x="70" y="26" width="30" height="40"/><use href="#reeds" x="112" y="20" width="34" height="46"/></svg><h3>Marsh</h3><p>Shallow, reed-filled water fed by rain and rivers. Home to herons, frogs and fish nurseries.</p></div>
+<div class="card"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--sky)"/><rect y="62" width="160" height="28" fill="var(--w)"/><g stroke="var(--mud)" stroke-width="3" fill="none"><path d="M40 62q-14 14-20 24M40 62q4 14 0 24M40 62q14 14 24 24M110 62q-14 14-20 24M110 62q4 14 0 24M110 62q14 14 24 24"/></g><g fill="var(--g)"><circle cx="40" cy="42" r="20"/><circle cx="110" cy="42" r="20"/></g></svg><h3>Mangrove</h3><p>Salt-tolerant trees on coasts. They break waves and shelter young fish, and depend on a freshwater and tidal balance.</p></div>
+<div class="card"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--sky)"/><rect y="46" width="160" height="14" fill="var(--g)" opacity=".6"/><rect y="60" width="160" height="30" fill="var(--mud)"/><rect y="72" width="160" height="18" fill="#6e5e44"/></svg><h3>Peatland</h3><p>Waterlogged soil that builds up plant remains over centuries and stores huge amounts of carbon.</p></div>
+<div class="card"><svg viewBox="0 0 160 90"><rect width="160" height="90" fill="var(--sky)"/><path d="M0 60q40-20 80-6t80-10v46H0z" fill="var(--w)" opacity=".7"/><path d="M0 70q40-14 80-4t80-8v32H0z" fill="var(--w)"/><use href="#reeds" x="120" y="34" width="26" height="34"/></svg><h3>Floodplain and lake</h3><p>River edges that fill in the monsoon and drain afterwards, soaking up floodwater and recharging groundwater.</p></div>
+</div>
+<h2>The water budget</h2>
+<p>Every wetland keeps a water budget. Water comes in as rain, river inflow and groundwater. It leaves by evaporation, plant use, outflow and seepage. If inflows beat outflows the water rises, and if not it falls. Rain is the input that climate change alters most directly.</p>
+<figure class="fig"><svg viewBox="0 0 700 300" role="img" aria-label="Diagram of a wetland water budget">
+<rect width="700" height="300" fill="var(--soft)"/>
+<use href="#cloud" x="40" y="14" width="150" height="62" style="color:gray"/><text x="60" y="94" font-size="14" fill="var(--ink)">Rain</text>
+<g stroke="var(--w)" stroke-width="3" fill="none" stroke-linecap="round"><path d="M110 100v60m-8-10l8 10 8-10"/><path d="M20 190q60 10 130 20m-14-10l14 10-16 6"/><path d="M350 270v-50m-8 10l8-10 8 10"/></g>
+<text x="14" y="176" font-size="14" fill="var(--ink)">River inflow</text><text x="290" y="290" font-size="14" fill="var(--ink)">Groundwater</text>
+<ellipse cx="350" cy="200" rx="200" ry="52" fill="var(--w)"/><text x="310" y="206" font-size="15" fill="#fff">Wetland</text>
+<g stroke="var(--mud)" stroke-width="3" fill="none" stroke-linecap="round"><path d="M430 140q-8-16 0-30t0-30M480 140q-8-16 0-30t0-30M530 140q-8-16 0-30t0-30"/><path d="M550 214q60 6 110 28m-14-2l14 2-8 12"/></g>
+<text x="440" y="60" font-size="14" fill="var(--ink)">Evaporation and plant use</text><text x="560" y="262" font-size="14" fill="var(--ink)">Outflow</text></svg>
+<figcaption>Inputs on the left, losses on the right. A change in rain tips the balance.</figcaption></figure>
+<h2>The hydroperiod</h2>
+<p>Scientists call a wetland's yearly pattern of rising and falling water its <em>hydroperiod</em>. Plants germinate, fish spawn and birds arrive in step with it. In a steady climate the curve is smooth. In a changing one, dry gaps and sudden spikes break it up.</p>
+<figure class="fig"><svg viewBox="0 0 560 230" role="img" aria-label="Hydroperiod chart: smooth steady curve versus spiky changed curve">
+<rect width="560" height="230" fill="var(--soft)"/><path d="M40 180h490M40 20v160" stroke="var(--line)" stroke-width="2"/>
+<path d="M40 170C110 168 150 140 215 80S320 40 360 90 450 168 530 172" stroke="var(--w)" stroke-width="4" fill="none"/>
+<path d="M40 176h120l25-2 20-120 22 90 30 32h70l25-2 22-130 24 100 20 30h40" stroke="var(--dry)" stroke-width="3" fill="none" stroke-dasharray="7 5"/>
+<g font-size="13" fill="var(--mute)"><text x="40" y="202">Jan</text><text x="190" y="202">Apr</text><text x="330" y="202">Jul</text><text x="480" y="202">Oct</text><text x="46" y="16">Water level</text></g>
+<g font-size="13" fill="var(--ink)"><text x="340" y="30" fill="var(--w)">Steady pattern</text><text x="340" y="48" fill="var(--dry)">Erratic pattern</text></g></svg>
+<figcaption>Schematic only. The same yearly rain can arrive as a smooth season or as a few violent bursts with dry weeks between them.</figcaption></figure>
+<h2>Why rain patterns are shifting</h2>
+<p>Warmer air holds about 7% more water vapour per degree Celsius, so when rain does fall it tends to be heavier. Changing winds and ocean temperatures also move the start, end and strength of rainy seasons. For monsoon regions like India, studies point to more extreme downpours alongside uneven spells, so wetlands can get too little water for weeks and then too much in a day.</p>
+<h2>Why we should care</h2>
+<p>Wetlands act as natural sponges, buffering floods and releasing water in dry months. They filter pollutants, store carbon (peatlands cover about 3% of land yet are widely estimated to hold around a third of soil carbon), shelter wildlife and support fishing and farming for billions of people.</p>
+<div class="pn"><a href="#/">Home</a><a href="#/effects">Next: the effects</a></div></section>
+
+<!-- EFFECTS -->
+<section class="page" id="p-effects" hidden>
+<h1>What changing rain does</h1>
+<p class="lead">Too little, too much, too early, too late. Each pattern harms wetlands in a different way.</p>
+<h2>Drying</h2>
+<p>Longer dry spells shrink open water. Fish are trapped in shrinking pools, amphibians lose breeding sites, and birds lose feeding grounds. Dried peat can catch fire and releases stored carbon, which adds to warming. Plants that need wet roots die back and weedy dryland species move in.</p>
+<figure class="fig"><svg viewBox="0 0 700 200" role="img" aria-label="Before and after: a pool shrinking into cracked mud"><rect width="700" height="200" fill="var(--soft)"/>
+<ellipse cx="170" cy="130" rx="130" ry="40" fill="var(--w)"/><use href="#reeds" x="60" y="60" width="44" height="60"/><text x="120" y="30" font-size="15" fill="var(--ink)">Wet season</text>
+<path d="M330 100h40m-6-8l6 8-6 8" stroke="var(--mute)" stroke-width="3" fill="none"/>
+<ellipse cx="530" cy="130" rx="130" ry="40" fill="var(--dry)"/><ellipse cx="530" cy="130" rx="40" ry="12" fill="var(--w)"/><path d="M420 130l30-8 14 10M600 126l24 8 16-6M520 160l10 10 22-4" stroke="var(--mud)" stroke-width="2" fill="none"/><text x="480" y="30" font-size="15" fill="var(--ink)">After a long dry spell</text></svg></figure>
+<h2>Flooding</h2>
+<p>Natural wetlands depend on regular flooding, but sudden surges are different. They drown ground-nesting birds, uproot vegetation and flush in silt, fertiliser and sewage that cause algal blooms. Fast runoff from paved or drained land also arrives all at once instead of soaking in.</p>
+<h2>Mistimed seasons</h2>
+<p>Many species are tuned to the calendar. If the water arrives late or leaves early, migratory birds can reach a wetland that is not ready, and fish may spawn after the shallows have dried.</p>
+<figure class="fig"><svg viewBox="0 0 700 190" role="img" aria-label="Timeline: wetland ready period shifts away from bird arrival"><rect width="700" height="190" fill="var(--soft)"/>
+<g font-size="13" fill="var(--mute)"><text x="40" y="24">Jul</text><text x="150" y="24">Sep</text><text x="260" y="24">Nov</text><text x="370" y="24">Jan</text><text x="480" y="24">Mar</text><text x="590" y="24">May</text></g>
+<text x="40" y="62" font-size="14" fill="var(--ink)">Normal: water ready</text><rect x="40" y="70" width="440" height="18" rx="9" fill="var(--w)"/>
+<text x="40" y="124" font-size="14" fill="var(--ink)">Shifted: late and short</text><rect x="210" y="132" width="180" height="18" rx="9" fill="var(--dry)"/>
+<path d="M250 36v140" stroke="var(--ink)" stroke-width="2" stroke-dasharray="5 5"/><text x="258" y="178" font-size="13" fill="var(--ink)">Winter birds arrive</text></svg>
+<figcaption>Illustrative months for a monsoon-fed wetland. The point is the mismatch, not exact dates.</figcaption></figure>
+<h2>Salt, acid and carbon</h2>
+<p>Less freshwater lets seawater push into coastal marshes and mangroves, killing salt-sensitive plants. When drained or dried, some coastal soils become acidic and peat releases carbon. A wetland that stored carbon can become a source of it.</p>
+<h2>Who feels it</h2>
+<p>Fishers lose catch, farmers lose irrigation and groundwater recharge, and coastal towns lose natural storm protection. Wetland losses show up in local food and water security long before they show up in national statistics.</p>
+<div class="pn"><a href="#/science">Back: science</a><a href="#/data">Next: the data</a></div></section>
+
+<!-- DATA -->
+<section class="page" id="p-data" hidden>
+<h1>The numbers</h1>
+<p class="lead">From the Ramsar Convention's Global Wetland Outlook 2025, the world's main wetland assessment.</p>
+<div class="stats">
+<div class="stat"><b>22%</b><span>of wetlands lost since 1970, about 411 million hectares</span></div>
+<div class="stat"><b>0.52%</b><span>lost on average every year</span></div>
+<div class="stat"><b>1 in 5</b><span>remaining wetlands could be lost by 2050 without action</span></div>
+<div class="stat"><b>$39 tn</b><span>in benefits to people and nature at stake</span></div></div>
+<figure class="fig"><svg viewBox="0 0 700 150" role="img" aria-label="Bar: 22 percent of wetlands lost since 1970"><rect width="700" height="150" fill="var(--soft)"/>
+<text x="30" y="36" font-size="15" fill="var(--ink)">Wetlands since 1970</text><rect x="30" y="50" width="640" height="30" rx="15" fill="var(--w)"/><rect x="30" y="50" width="141" height="30" rx="15" fill="var(--dry)"/>
+<text x="42" y="107" font-size="14" fill="var(--ink)">22% lost</text><text x="500" y="107" font-size="14" fill="var(--ink)">78% remaining</text></svg></figure>
+<h2>The money gap</h2>
+<p>Wetlands receive less than 9% of climate finance earmarked for nature-based solutions. The report estimates that about 5.5 million square kilometres, roughly half the size of Canada, need conservation or restoration to meet global climate and biodiversity goals. Overall biodiversity funding is only about 0.25% of global GDP.</p>
+<figure class="fig"><svg viewBox="0 0 700 110" role="img" aria-label="Bar: under 9 percent of nature-based climate finance reaches wetlands"><rect width="700" height="110" fill="var(--soft)"/>
+<text x="30" y="34" font-size="15" fill="var(--ink)">Share of nature-based climate finance reaching wetlands</text><rect x="30" y="48" width="640" height="26" rx="13" fill="var(--line)"/><rect x="30" y="48" width="58" height="26" rx="13" fill="var(--w)"/><text x="100" y="67" font-size="14" fill="var(--ink)">under 9%</text></svg></figure>
+<h2>Four pathways to reverse loss</h2>
+<ul class="l"><li><strong>Plan for wetlands</strong><span>Put wetlands into national and local planning.</span></li><li><strong>Fund them</strong><span>Count wetlands in climate and biodiversity finance.</span></li><li><strong>Respect their role in the water cycle</strong><span>Treat them as water infrastructure.</span></li><li><strong>Blend public and private money</strong><span>Scale up protection and restoration.</span></li></ul>
+<p class="note" style="margin-top:1rem">An older assessment quoted 35% loss of natural wetlands. The 2025 outlook reports 22% using a different method, so the numbers should not be compared directly.</p>
+<div class="pn"><a href="#/effects">Back: effects</a><a href="#/india">Next: India</a></div></section>
+
+<!-- INDIA -->
+<section class="page" id="p-india" hidden>
+<h1>Wetlands in India</h1>
+<p class="lead">India depends on a monsoon that is becoming more uneven, which makes its wetlands a close test of what changing rain does.</p>
+<div class="stats">
+<div class="stat"><b>231,195</b><span>wetlands (2.25 ha or larger) mapped in 2017-18 by ISRO</span></div>
+<div class="stat"><b>4.86%</b><span>of India's land area, about 15.28 million hectares</span></div>
+<div class="stat"><b>91</b><span>Ramsar sites, with Khichan and Menar added in 2025</span></div></div>
+<h2>What the government atlas says</h2>
+<p>The National Decadal Wetlands Change Atlas, released by the Environment Ministry in 2022, compares 2017-18 with 2006-07. It found that the number and area of mapped wetlands increased, but researchers warn that this includes many man-made tanks and reservoirs, and that natural wetlands are degrading. The atlas itself records declines in intertidal mudflats (4.8%), salt marshes (3.7%) and waterlogged areas (2.4%), and 1,342 wetlands that had disappeared.</p>
+<h2>Sites under strain</h2>
+<p>Keoladeo National Park in Rajasthan, India's first Ramsar site, depends on monsoon flow and managed water supply. Keoladeo and Loktak Lake in Manipur are both on the Montreux Record, Ramsar's list of sites facing ecological change. Sites like these show how a weaker or later monsoon quickly becomes a management problem.</p>
+<h2>Laws and schemes</h2>
+<ol class="tl">
+<li><b>1982.</b> India joins the Ramsar Convention and begins designating sites.</li>
+<li><b>2015.</b> The National Plan for Conservation of Aquatic Ecosystems merges two earlier lake and wetland programmes.</li>
+<li><b>2017.</b> Wetlands (Conservation and Management) Rules set up a national committee and state wetland authorities.</li>
+<li><b>2022.</b> The Decadal Change Atlas is released on World Wetlands Day.</li>
+<li><b>2023.</b> Amrit Dharohar launches, focusing on Ramsar sites through community participation, eco-tourism and local livelihoods.</li>
+<li><b>2025.</b> India reaches 91 Ramsar sites.</li></ol>
+<h2>The gaps</h2>
+<p>The 2017 Rules apply to wetlands notified by state governments, and do not cover rivers. Court orders have urged a wider approach, treating wetlands in the ISRO atlas as water bodies that need protection. Enforcement and state-level capacity remain the main challenge.</p>
+<div class="pn"><a href="#/data">Back: data</a><a href="#/solutions">Next: solutions</a></div></section>
+
+<!-- SOLUTIONS -->
+<section class="page" id="p-solutions" hidden>
+<h1>What can be done</h1>
+<p class="lead">We cannot control the rain, but we can make wetlands better able to cope with it.</p>
+<figure class="fig"><svg viewBox="0 0 700 200" role="img" aria-label="Before and after restoration"><rect width="700" height="200" fill="var(--soft)"/>
+<rect x="20" y="110" width="310" height="70" rx="10" fill="var(--mud)"/><path d="M60 140l30-8 14 10M200 150l24 6 18-8" stroke="#6e5e44" stroke-width="2" fill="none"/><text x="30" y="40" font-size="15" fill="var(--ink)">Drained and degraded</text>
+<path d="M350 100h40m-6-8l6 8-6 8" stroke="var(--mute)" stroke-width="3" fill="none"/>
+<rect x="410" y="110" width="270" height="70" rx="10" fill="var(--w)"/><use href="#reeds" x="430" y="50" width="50" height="66"/><use href="#reeds" x="560" y="56" width="46" height="60"/><use href="#cloud" x="610" y="18" width="70" height="30" style="color:var(--sky)"/><text x="420" y="40" font-size="15" fill="var(--ink)">Restored</text></svg></figure>
+<div class="two"><ul class="l">
+<li><strong>Keep water connected</strong><span>Protect inflow channels, floodplains and groundwater so wetlands can fill and drain naturally.</span></li>
+<li><strong>Re-wet and replant</strong><span>Restore drained peat, replant mangroves and rebuild buffer strips. Healthy wetlands soak up floods and hold water through dry spells.</span></li>
+<li><strong>Manage dams and canals for wetlands</strong><span>Release water on schedules that match birds and fish, not just farms and cities.</span></li></ul>
+<ul class="l">
+<li><strong>Stronger law and local action</strong><span>Empower state wetland authorities, include rivers and unnotified wetlands, and involve communities through schemes like Amrit Dharohar.</span></li>
+<li><strong>Monitor early</strong><span>Combine satellite wetland maps with rain-gauge and water-level data to spot stress while action is still cheap.</span></li>
+<li><strong>Finance and plan</strong><span>Build wetlands into climate, land-use and urban plans and mix public and private funding.</span></li></ul></div>
+<h2>What one person can do</h2>
+<p>Support local lake and wetland cleanups, avoid dumping waste or filling in ponds, harvest rainwater so less runoff reaches wetlands, and ask your local government whether nearby wetlands are notified and protected.</p>
+<div class="pn"><a href="#/india">Back: India</a><a href="#/">Home</a></div></section>
+</main>
+<footer><div class="wrap"><p><strong>Sources.</strong> Ramsar Convention Secretariat, Global Wetland Outlook 2025 (via Ramsar news and press coverage). Ministry of Environment, Forest and Climate Change, Government of India: National Decadal Wetlands Change Atlas 2022 (ISRO Space Applications Centre), Wetlands Rules 2017, Amrit Dharohar, Ramsar site list. Commentary on the atlas: Mongabay India. General climate science is summarised; check IMD for current monsoon data. All illustrations are schematic.</p></div></footer>
+<script src="script.js"></script></body></html>
